@@ -8,7 +8,7 @@ The documentation suppose, that a new implementation of the language will layer 
 The documentation consists few chapters as the languge is processed.
 
 0) [Used terminology](https://github.com/stastnypremysl/lsql/blob/main/docs/used-terminology.md)
-1) Special characters and keywords
+1) [Special characters and keywords](https://github.com/stastnypremysl/lsql/blob/main/docs/special-chars-keywords.md)
 2) Preprocessing
 3) Functions overview
     1) Aggregate functions
