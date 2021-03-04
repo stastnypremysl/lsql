@@ -3,6 +3,12 @@
 ## Whitespace
 Whitespace can be eather space, tab or new line. The language don't recognize any difference between these.
 
+The function of whitespaces in batch mode differs from the function of whitespaces in arithmetic mode.
+
+In the arithmetic mode are whitespaces purely for purpose of separating lexems by a lexer and have no syntactic or semantic meaning.
+
+In the batch mode
+
 ## Single and double quotes (`'`, `"`)
 Single and double quotes have same meaning in the language with the only exception, that single quote statement must be terminated by single quote and double quote statement must be terminated by double quote.
 
