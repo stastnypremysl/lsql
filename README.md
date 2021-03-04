@@ -5,7 +5,16 @@ It is not intended as a tutorial and reader is strongly encouraged to read [lsql
 
 The documentation consists few chapters as the languge is processed.
 
+0) Used terminology 
 1) Preprocessing
-2) Lexical analysis
-3) Syntactical analysis
-4) Semantics
+2) Functions overview (used in all lexical, syntactical and semantic analysis)
+3) Lexical analysis
+4) Syntactical analysis
+5) Semantic analysis
+    1) Variable types
+    2) Variable conversions
+    4) Select statement
+    5) By statement
+    6) If statement
+    7) Sort statement
+    8) From statement
