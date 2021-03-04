@@ -8,9 +8,9 @@ The documentation suppose, that a new implementation of the language will layer 
 The documentation consists few chapters as the languge is processed.
 
 0) [Used terminology](https://github.com/stastnypremysl/lsql/blob/main/docs/used-terminology.md)
-1) Special characters and keywords - common overview for Preprocessor and Lexer
+1) Special characters and keywords
 2) Preprocessing
-3) Functions overview (used in all lexical, syntactical and semantic analysis)
+3) Functions overview
     1) Aggregate functions
     2) Arithmetic functions
 4) Lexical analysis
