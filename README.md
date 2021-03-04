@@ -5,7 +5,7 @@ It is not intended as a tutorial and reader is strongly encouraged to read [lsql
 
 The documentation consists few chapters as the languge is processed.
 
-0) Used terminology 
+0) [Used terminology](https://github.com/stastnypremysl/lsql/docs/used-terminology.md)
 1) Special characters and keywords - common overview for Preprocessor and Lexer
 2) Preprocessing
     1) Arithmetic mode identifiers lexing
