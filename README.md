@@ -6,7 +6,7 @@ It is not intended as a tutorial and reader is strongly encouraged to read [lsql
 The documentation consists few chapters as the languge is processed.
 
 0) Used terminology 
-1) Special characters - common for Preprocessor and Lexer
+1) Special characters - common overview for Preprocessor and Lexer
 2) Preprocessing
 3) Functions overview (used in all lexical, syntactical and semantic analysis)
 4) Lexical analysis
