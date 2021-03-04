@@ -18,9 +18,7 @@ This is the overview of used terminology in this document (LSQL reference docume
 | Variable | Leaf term in a parse tree, which represent a user-entered constant or variable. In context of lexical or synactic analysis of batch expression a variable represented by a wildcard may be more variables. |
 | Variable type | TODO |
 | Wildcard | TODO |
-| Curly expanding | Curly bracket (braces) expansion - similar to bash curly expanding. Part of language preprocessing. Available only in batch expressions. 
-  If used in arithmetic expression, which isn't inside other batch expression, preprocessor should return error. |
-
+| Curly expanding | Curly bracket (braces) expansion - similar to bash curly expanding. Part of language preprocessing. Available only in batch expressions. If used in arithmetic expression, which isn't inside other batch expression, preprocessor should return error. |
 | Preprocessing | Part  |
 | Constant | TODO |
 | Inbuild constant | Type of constant, which should be hardcoded in semantic part of implementation of the language. |
