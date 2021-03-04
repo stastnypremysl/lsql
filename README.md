@@ -3,7 +3,7 @@
 This repository contains the documentation of LSQL language (Lapidary Structured Query Language). 
 It is not intended as a tutorial and reader is strongly encouraged to read [lsql-csv/README.md](https://github.com/stastnypremysl/lsql-csv/blob/master/README.md) first.
 
-The documentation suppose, that a new implementation of the language will layer processing to preprocessor, lexer, parser and to the semantics. It is strongly recommended, but it is not required by the standard and any incomming programmer is free to commit any suicide he choose. :-)
+The documentation suppose, that a new implementation of the language will layer processing to preprocessor, lexer, parser and to the semantics. It is strongly recommended, but it is not required by the standard and any incomming programmer is free to commit any suicide he chooses. :-)
 
 The documentation consists few chapters as the languge is processed.
 
