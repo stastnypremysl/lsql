@@ -40,3 +40,9 @@ This is the overview of used terminology in this document (LSQL reference docume
 | Arithmetic identifier | Identifier lexed in arithmetic expression |
 | Batch expression | Identifier lexed in batch expression |
 | Statement | Universal word for any nontrivial language lexem or term |
+| Macro | Part of query, which will be evaluated by preprocessor. |
+| Named macro | Macro with a name defined inside macro block. |
+| Unification | Associating two macros, so they are evaluated together. |
+| Element (in batch expression) | A part of batch expression separated by whitespace. |
+| Lookup quote statement | Statement enclosed in grave accent chars, eg. `\`xyz\`` |
+| Constant quote statement | Statement enclosed in single or double quote chars |
