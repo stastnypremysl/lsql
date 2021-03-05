@@ -44,5 +44,5 @@ This is the overview of used terminology in this document (LSQL reference docume
 | Named macro | Macro with a name defined inside macro block. |
 | Unification | Associating two macros, so they are evaluated together. |
 | Element (in batch expression) | A part of batch expression separated by whitespace. |
-| Lookup quote statement | Statement enclosed in grave accent chars, eg. `\`xyz\`` |
+| Lookup quote statement | Statement enclosed in grave accent chars, eg. ```xyz``` |
 | Constant quote statement | Statement enclosed in single or double quote chars |
