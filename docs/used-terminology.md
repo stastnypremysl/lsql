@@ -46,3 +46,5 @@ This is the overview of used terminology in this document (LSQL reference docume
 | Element (in batch expression) | A part of batch expression separated by whitespace. |
 | Lookup quote statement | Statement enclosed in grave accent chars, eg. `` `xyz` `` |
 | Constant quote statement | Statement enclosed in single or double quote chars |
+| Ordinary char | Any char, which is not special char. |
+| Keyword | Special word, which is handled specifically by all layers of languge. |
