@@ -14,8 +14,9 @@ The documentation consists few chapters as the languge is processed.
 4) Lexical analysis
     1) Arithmetic mode identifiers lexing
     2) Batch mode identifiers lexing
-5) Syntactical analysis
-6) Semantic analysis
+5) Syntactic analysis
+6) Postsyntantic analysis
+7) Semantic analysis
     1) Variable types
     2) Variable conversions
     4) Select statement
