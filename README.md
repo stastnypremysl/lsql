@@ -11,8 +11,6 @@ The documentation consists few chapters as the languge is processed.
 1) [Special characters and keywords](https://github.com/stastnypremysl/lsql/blob/main/docs/special-chars-keywords.md)
 2) Preprocessing
 3) Functions overview
-    1) Aggregate functions
-    2) Arithmetic functions
 4) Lexical analysis
     1) Arithmetic mode identifiers lexing
     2) Batch mode identifiers lexing
