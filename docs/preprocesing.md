@@ -13,6 +13,8 @@ No macro is evaluated, if
 * macro is in lookup quote
 * some necessary special char of a macro have been escaped by `\`
 
+If there is a macro inside a macro, the inner macro must be evaluated first.
+
 ## Unnamed macros
 Unnamed macro is always enclosed in curly brackets. There are two modes of unnamed macros
 
