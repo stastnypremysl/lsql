@@ -32,14 +32,18 @@ Round brackets serves for arithmetic expressions. It is evaluated during semanti
 ## Square brackets (`[`, `]`)
 Square brackets serves for batch expressions. It may be evaluated during semantic analysis to MANY [0..inf) variables.
 
-## Curly brackets (`{`, `}`)
-Curly brackets serves for the preprocessor expressions. For more details see preprocessor chapter.
-
 ## Backslash (`\`)
 Backslash serves as mark, that special character should be handled as ordinary character.
 
+# Special characters - preprocessor only
+## Minus (`-`)
+Minus is used inside preprocessor macro to specify ranges. In other layers of the language it is considered as ordinary char.
+
+## Curly brackets (`{`, `}`)
+Curly brackets serves for the unnamed preprocessor expressions.
+
 ## Dolar (`$`)
-Dolar sign is used by preprocessor to inject macro,
+Dolar sign is used by preprocessor to inject macro.
 
 # Keywords
 

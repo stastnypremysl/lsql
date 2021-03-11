@@ -1,0 +1,21 @@
+# Preprocessing
+Preprocessing is the first part of query evaluation. For interested readers, who might ask, why do we need macros, we answer: We don't, but it simplify many things. Mainly:
+
+a) Fast new function definitions - just inject it as text
+b) Nested "for" cycles on text level - standard batch processing supports only one level "for" cycle and runs on postsyntactic level, therefore less powerful for some tasks
+
+Macro can be inbuilt, unnamed or named.
+
+
+## Unnamed macros
+
+## Enclosed (add to terminology - TODO) statement handeling
+
+## Named macros
+
+### Unification
+
+### Calling convention
+
+
+## Inbuilt macros
