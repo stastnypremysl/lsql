@@ -9,7 +9,7 @@ The documentation consists few chapters as the languge is processed.
 
 0) [Used terminology](https://github.com/stastnypremysl/lsql/blob/main/docs/used-terminology.md)
 1) [Special characters and keywords](https://github.com/stastnypremysl/lsql/blob/main/docs/special-chars-keywords.md)
-2) Preprocessing
+2) [Preprocessing](https://github.com/stastnypremysl/lsql/blob/main/docs/preprocesing.md)
 3) Functions overview
 4) Lexical analysis
     1) Arithmetic mode identifiers lexing
