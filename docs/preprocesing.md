@@ -1,8 +1,8 @@
 # Preprocessing
 Preprocessing is the first part of query evaluation. For interested readers, who might ask, why do we need macros, we answer: We don't, but it simplify many things. Mainly:
 
-a) Fast new function definitions - just inject it as text
-b) Nested "for" cycles on text level - standard batch processing supports only one level "for" cycle and runs on postsyntactic level, therefore less powerful for some tasks
+* Fast new function definitions - just inject it as text
+* Nested "for" cycles on text level - standard batch processing supports only one level "for" cycle and runs on postsyntactic level, therefore less powerful for some tasks
 
 Macro can be inbuilt, unnamed or named.
 
@@ -10,20 +10,20 @@ The basic concept of a macro is expansion. Every macro is evaluated to a list of
 
 No macro is evaluated, if
 
-a) macro is in lookup quote
-b) some necessary special char of a macro have been escaped by `\`
+* macro is in lookup quote
+* some necessary special char of a macro have been escaped by `\`
 
 ## Unnamed macros
 Unnamed macro is always enclosed in curly brackets. There are two modes of unnamed macros
 
-a) Ranged unnamed macros
-b) Enumeration unnamed macros
+* Ranged unnamed macros
+* Enumeration unnamed macros
 
 ### Ranged unnamed macros 
 Ranged unnamed macros have format `{a1..a2}`. `a1` and `a2` can be eather (but both of them must have same type)
 
-a) Numbers
-b) Chars
+* Numbers
+* Chars
 
 When they are numbers, it is evaluated to a list of numbers `a1, a1+1, a1+2,..., a2` if `a1 <= a2`.
 If `a2 < a1`, it is evaluated to a list of numbers `a2, a2+1, a2+2,..., a1`.
