@@ -78,9 +78,9 @@ If `A ~~ B`, then if `A`'s default context consist `B` during the injection, `B`
 0) Load next batch statement and set it as current context
 1) Evaluate all unnamed macros excluding inner batch expressions
 2) Find all macros and compute hard unification for the batch statement
-3) Evaluate all hard unified macros' arguments as non-unified macros
+3) Evaluate all hard unified macros to lists
 4) Factorize hard unified macros
-5) Evaluate all hard-unified macros in the batch statement
+5) Inject all hard-unified macros in the batch statement
 6) Evaluate the rest of macros in the batch statement excluding inner batch expression
 7) Evaluate recursivly all inner batch expressions
 8) Return list of batch expressions
