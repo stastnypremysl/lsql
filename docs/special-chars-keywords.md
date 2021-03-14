@@ -48,6 +48,9 @@ Dolar sign is used by preprocessor to inject macro.
 ## Hash (`#`)
 Everything after hash till the new line is deleted. It is used for comments.
 
+## Tildo (`~`)
+Tildo is used as symbol to unify named macros.
+
 # Keywords
 
 ## by
