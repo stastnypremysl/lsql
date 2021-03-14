@@ -34,17 +34,25 @@ This is the overview of used terminology in this document (LSQL reference docume
 | DimensionalDouble | Double with units (like 50 km/h), variable type |
 | Array | An ordered tuple of scalars, variable type |
 | Int, Integer | An integer, variable type |
-| Arithmetic expression | A mode of language. It might be activated by () or activated by default depending on block type. |
-| Batch expression | A mode of language. It might be activated by [] or activated by default depending on block type. |
+| Arithmetic expression | An expression in the arithmetic mode of language. It might be activated by () or activated by default depending on block type. |
+| Batch expression | An expression in the batch mode of language. It might be activated by [] or activated by default depending on block type. |
 | Identifier | Token identifing eather a function, inbuilt constant or variable. |
 | Arithmetic identifier | Identifier lexed in arithmetic expression |
-| Batch expression | Identifier lexed in batch expression |
+| Batch identifier | Identifier lexed in batch expression |
 | Statement | Universal word for any nontrivial language lexem or term |
 | Macro | Part of query, which will be evaluated by preprocessor. |
 | Named macro | Macro with a name defined inside macro block. |
+| Macro inplace expression | Special syntax $(XYZ), which tells to preprocessor to process macro in macro statement. |
 | Unification | Associating two macros, so they are evaluated together. |
 | Element (in batch expression) | A part of batch expression separated by whitespace. |
 | Lookup quote statement | Statement enclosed in grave accent chars, eg. `` `xyz` `` |
 | Constant quote statement | Statement enclosed in single or double quote chars |
 | Ordinary char | Any char, which is not special char. |
 | Keyword | Special word, which is handled specifically by all layers of languge. |
+| Batch statement | A part of batch expression separated by a space.|
+| Macro statement | A part of macro expression separated by a space.|
+| The nearest batch expression | The nearest (The most inner) batch expression, inside which the lexem is. |
+| The nearest batch statement | The nearest (The most inner) batch statement, inside which the lexem is. |
+| Father batch statement | Any batch statement, inside which the lexem is. |
+| Hard unification | TODO |
+| Unified macros | Macros, which are in the same factor set in Hard unification.|

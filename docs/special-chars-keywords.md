@@ -45,6 +45,9 @@ Curly brackets serves for the unnamed preprocessor expressions.
 ## Dolar (`$`)
 Dolar sign is used by preprocessor to inject macro.
 
+## Hash (`#`)
+Everything after hash till the new line is deleted. It is used for comments.
+
 # Keywords
 
 ## by
