@@ -58,8 +58,9 @@ If macro is called from macro inplace expression, the behavior is the same as th
 
 ## Unification
 (Soft) unification is transitive binary relation `~` between all macros which
-a) For all `A` and `B` such that `A ~ B`: `A ~ A`
-b) For all `A`: `U ~ A` (`U` is an inbuilt macro)
+
+1) For all `A` and `B` such that `A ~ B`: `A ~ A`
+2) For all `A`: `U ~ A` (`U` is an inbuilt macro)
 
 Hard unification is equvivalance `~~` on all macros, which will be unified in the current context.
 
@@ -74,19 +75,20 @@ If `A ~~ B`, then if `A`'s default context consist `B` during the injection, `B`
 ## Preprocessing order
 ### Batch expression
 
-a) Load next batch statement and set it as current context
-b) Evaluate all unnamed macros excluding inner batch expressions
-c) Find all macros and compute hard unification for the batch statement
-c) Evaluate all hard unified macros' arguments as non-unified macros
-d) Factorize hard unified macros
-e) Evaluate all hard-unified macros in the batch statement
-f) Evaluate the rest of macros in the batch statement excluding inner batch expression
-g) Evaluate recursivly all inner batch expressions
-h) Return list of batch expressions
+0) Load next batch statement and set it as current context
+1) Evaluate all unnamed macros excluding inner batch expressions
+2) Find all macros and compute hard unification for the batch statement
+3) Evaluate all hard unified macros' arguments as non-unified macros
+4) Factorize hard unified macros
+5) Evaluate all hard-unified macros in the batch statement
+6) Evaluate the rest of macros in the batch statement excluding inner batch expression
+7) Evaluate recursivly all inner batch expressions
+8) Return list of batch expressions
 
 ### Macro block
-a) Load next macro statement
-b) TODO
+
+0) Load next macro statement
+1) TODO
 
 ## Injection of macro to a context
 Each macro is evaluated in context - a substring of a query containing a macro.
