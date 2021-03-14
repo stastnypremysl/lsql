@@ -73,6 +73,7 @@ If `A ~~ B`, then if `A`'s default context consist `B` during the injection, `B`
 
 ## Preprocessing order
 ### Batch expression
+
 a) Load next batch statement and set it as current context
 b) Evaluate all unnamed macros excluding inner batch expressions
 c) Find all macros and compute hard unification for the batch statement
