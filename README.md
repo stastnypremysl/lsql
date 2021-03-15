@@ -10,13 +10,14 @@ The documentation consists few chapters as the languge is processed.
 0) [Used terminology](https://github.com/stastnypremysl/lsql/blob/main/docs/used-terminology.md)
 1) [Special characters and keywords](https://github.com/stastnypremysl/lsql/blob/main/docs/special-chars-keywords.md)
 2) [Preprocessing](https://github.com/stastnypremysl/lsql/blob/main/docs/preprocesing.md)
-3) Functions overview
-4) Lexical analysis
+3) [Variable types overview](https://github.com/stastnypremysl/lsql/blob/main/docs/variable-types-overview.md)
+4) [Functions overview](https://github.com/stastnypremysl/lsql/blob/main/docs/functions-overview.md)
+5) Lexical analysis
     1) Arithmetic mode identifiers lexing
     2) Batch mode identifiers lexing
-5) Syntactic analysis
-6) Postsyntantic analysis
-7) Semantic analysis
+6) Syntactic analysis
+7) Postsyntantic analysis
+8) Semantic analysis
     1) Variable types
     2) Variable conversions
     4) Select statement
