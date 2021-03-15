@@ -60,11 +60,6 @@ b) by which variables should be block grouped by
 
 It accepts batch expression.
 
-The by block sets attributes so that only one row per group was printed.
-
-## mby
-`mby` keyword is almost the same as the `by` block. The only difference is in printed rows. `mby` block sets attributes so that all rows per group was printed.
-
 ## on
 `on` keyword is used only in `left`, `right`, `full` or `inner` block. It is used to specify condition to join.
 

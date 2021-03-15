@@ -42,7 +42,6 @@ This is the overview of used terminology in this document (LSQL reference docume
 | Statement | Universal word for any nontrivial language lexem or term |
 | Macro | Part of query, which will be evaluated by preprocessor. |
 | Named macro | Macro with a name defined inside macro block. |
-| Macro inplace expression | Special syntax $(XYZ), which tells to preprocessor to process macro in macro statement. |
 | Unification | Associating two macros, so they are evaluated together. |
 | Element (in batch expression) | A part of batch expression separated by whitespace. |
 | Lookup quote statement | Statement enclosed in grave accent chars, eg. `` `xyz` `` |
