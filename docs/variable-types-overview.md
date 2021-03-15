@@ -58,6 +58,9 @@ In such case, semantic analyzator tries to convert variable to such a type, the 
 ### * -> String
 Any type T will be automatically converted into string, if function doesn't accept T, but accepts string.
 
+### * -> Array
+Any type T will be automatically converted into array with one element, if function doesn't accept T, but accepts array.
+
 ### Integer -> Fraction
 An integer can be easily converted to a fraction.
 
