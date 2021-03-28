@@ -16,8 +16,10 @@ Quote statement can contain any chars excluding the quote itself (single quote s
 
 Quote statement is always tokenized into quote token and then processed as a user-defined constant. The variable type of the constant is up to an implementation.
 
+When single resp. double quotes are doubled inside single resp. double quotes statement, they are considered as ordinary chars.
+
 ## Lookup quotes (grave accent quotes) (`` ` ``)
-Lookup quotes serves for explicitly specifing one variable, without being processed by preprocessor or wildcards. If variable doesn't exist, the query should fail.
+Lookup quotes serves for explicitly specifing one variable, without being processed by preprocessor or wildcards. It works in the same way as single and double quotes with the exception of it's semantic purpose. If variable doesn't exist, the query should fail.
 
 ## Comma (`,`)
 Commas are separators for blocks. First block (always from block) don't start with a comma and the last one doesn't end with one.
