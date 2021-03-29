@@ -115,6 +115,10 @@ Named macros are always evaluated after unnamed macros. They are defined in `mc`
 
 Named macro is basically a list of strings which might contain other macros. 
 
+Named macro can be named using strings, which
+a) starts with letter
+b) contain only numbers, letters or underscore
+
 ### Calling convention
 
 ## Macro block
