@@ -4,6 +4,8 @@ Preprocessing is the first part of query evaluation. For interested readers, who
 * Fast new function definitions - just inject it as text
 * Nested "for" cycles on text level - standard batch processing supports only one level "for" cycle and runs on postsyntactic level, therefore less powerful for some tasks
 
+The preprocessor is string based. (tokens are not used)
+
 The basic concept of a macro is expansion. Every macro is evaluated to a list of strings and than injected to a context. 
 A context is selected before the expansion to a list of string.
 
